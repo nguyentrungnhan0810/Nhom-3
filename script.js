@@ -13,7 +13,6 @@ function updateClock() {
   document.getElementById("minute").style.transform = `translateX(-50%) rotate(${minDeg}deg)`;
   document.getElementById("hour").style.transform = `translateX(-50%) rotate(${hrDeg}deg)`;
 
-  // Hiển thị dạng số
   const digital = now.toLocaleTimeString("vi-VN");
   document.getElementById("digital").textContent = digital;
 }
